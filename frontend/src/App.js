@@ -17,8 +17,8 @@ const PROJECTION_CONFIG = {
 
 function App() {
   //CALLING DATA FROM API
-  const url = "http://andyson2.pythonanywhere.com/api/province/"
-  const zambiaurl = "http://andyson2.pythonanywhere.com/api/zambia"
+  const url = "https://andyson2.pythonanywhere.com/api/province/"
+  const zambiaurl = "https://andyson2.pythonanywhere.com/api/zambia"
   const [tooltipContent, setTooltipContent] = useState('');
   const [data, setData] = useState([]);
   const [zambiaData, setzambiaData] = useState([]);
@@ -68,7 +68,7 @@ const colorScale = scaleQuantile().domain(data.map(d=>d.cases)).range([
   
   return (
     <div>
-      <div className="TitleDiv"><img className="Title" src={logo}/></div>
+      <div className="TitleDiv"><img className="Title" src={logo} alt="Title"/></div>
       <div className="map">
       <ReactTooltip>{tooltipContent}</ReactTooltip>
       <ComposableMap data-tip="" projectionConfig={PROJECTION_CONFIG} projection="geoMercator" height={500}>
@@ -103,7 +103,7 @@ const colorScale = scaleQuantile().domain(data.map(d=>d.cases)).range([
       </ComposableMap>
       </div>
       <p className="key">Chloropeth repsents number of cases for each province</p>
-      <img className="gradient" src={gradient}/>
+      <img className="gradient" src={gradient} alt="Gradient"/>
       <div className="CardArea">
       <div className="CardFirst">
                 <h3 className="Card1">Infected</h3>

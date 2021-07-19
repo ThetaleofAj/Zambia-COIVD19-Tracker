@@ -528,7 +528,8 @@ footer{
   }
   
   .gradient{
-   padding-left: 10px;
+    padding-left: 3px;
+    padding-right: 1px;
     width: 100%;
   }
 

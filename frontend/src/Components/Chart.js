@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 const Chart=()=>{
-const url = "http://andyson2.pythonanywhere.com/api/chartdata/"
+const url = "https://andyson2.pythonanywhere.com/api/chartdata/"
 const [chartData, SetchartData] = useState([]);
 //Getting data from API
 const getData = async ()=>{

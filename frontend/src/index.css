@@ -1,0 +1,572 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Title{
+  width: 100%;
+  
+}
+.TitleDiv{
+  background-color: #ded9d9;
+  width: 100%;
+}
+
+.Card {
+  border: 1px solid;
+  border-color: #FEDC56;
+  transition: 0.3s;
+  width: 20%;
+
+  
+}
+.CardFirst {
+  border: 1px solid;
+  border-color: #FEDC56;
+  transition: 0.3s;
+  width: 20%;
+}
+
+.CardSecond {
+  border: 1px solid;
+  border-color: #98fb98;
+  transition: 0.3s;
+  width: 20%;
+}
+.CardThird{
+  border: 1px solid;
+  border-color: #CD5C5C;
+  transition: 0.3s;
+  width: 20%;
+}
+.CardFourth {
+  border: 1px solid;
+  border-color: #89CFF0;
+  transition: 0.3s;
+  width: 20%;
+
+  
+}
+
+.Card1{
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+  
+}
+
+.Card2{
+  padding-left: 70px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Card3{
+  padding-left: 80px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Card4{
+  padding-left: 70px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.today{
+  padding-left: 10px;
+}
+
+.details {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.TableTitle{
+  padding-left: 42%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.TableArea{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  background-color: #B80F0A;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.key{
+  font-style: italic;
+  color: grey;
+  padding-left: 500px;
+  
+}
+
+.key1{
+font-style: italic;
+  color: grey;
+  padding-left: 500px;
+}
+
+.gradient{
+  padding-left: 300px;
+  width: 80%;
+}
+
+.CardArea{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChartTitle{
+  padding-left: 42%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ChartArea{
+  padding-top: 60px;
+}
+
+footer{
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: grey;
+  text-align: center;
+}
+
+
+/*Tablets and up */
+@media only screen and (max-width: 768px) and (min-width:600px) { 
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .Title{
+    padding-left: 10px;
+    width: 100%;
+    
+  }
+  .TitleDiv{
+    background-color: #ded9d9;
+    width: 100%;
+  }
+  
+  .Card {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  
+    
+  }
+.CardArea{
+  display: inline;
+  padding-bottom: 50px;
+}
+
+  .CardFirst {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    border: 1px solid;
+    border-color: #FEDC56;
+    transition: 0.3s;
+    width: 80%;
+  }
+  
+  .CardSecond {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    border: 1px solid;
+    border-color: #98fb98;
+    transition: 0.3s;
+    width: 80%;
+  }
+  .CardThird{
+    position: relative;
+    top:100px;
+    left: 80px;
+    border: 1px solid;
+    border-color: #CD5C5C;
+    transition: 0.3s;
+    width: 80%;
+  }
+  .CardFourth {
+    position: relative;
+    top: 120px;
+    left:80px;
+    border: 1px solid;
+    border-color: #89CFF0;
+    transition: 0.3s;
+    width: 80%;
+  
+    
+  }
+  
+
+  .Card1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 255px;
+    
+    
+  }
+  
+  .Card2{
+    padding-left: 250px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  
+  .Card3{
+    padding-left: 260px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .Card4{
+    padding-left: 250px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .today{
+    padding-left: 10px;
+  }
+  
+  .details {
+    padding-left: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .TableTitle{
+    padding-top: 150px;
+    padding-left: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .TableArea{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: #B80F0A;
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  .key{
+    font-style: italic;
+    color: grey;
+    padding-left: 200px;
+    font-size: 20px;
+    
+  }
+  
+  .key1{
+  font-style: italic;
+    color: grey;
+    padding-left: 210px;
+    font-size: 20px;
+  }
+  
+  .gradient{
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  
+  .ChartTitle{
+    padding-top: 30px;
+    padding-left: 39%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ChartArea{
+    padding-top: 60px;
+  }
+
+  footer{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+  }
+  
+
+ }
+
+ @media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .Title{
+    padding-left: 10px;
+    width:100% ;
+  }
+  .TitleDiv{
+    background-color: #ded9d9;
+    width: 100%;
+  }
+  
+  .Card {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  
+    
+  }
+.CardArea{
+  display: inline;
+  padding-bottom: 50px;
+}
+
+  .CardFirst {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border: 1px solid;
+    border-color: #FEDC56;
+    transition: 0.3s;
+    width: 80%;
+  }
+  
+  .CardSecond {
+    position: relative;
+    top: 80px;
+    left: 40px;
+    border: 1px solid;
+    border-color: #98fb98;
+    transition: 0.3s;
+    width: 80%;
+  }
+  .CardThird{
+    position: relative;
+    top:100px;
+    left: 40px;
+    border: 1px solid;
+    border-color: #CD5C5C;
+    transition: 0.3s;
+    width: 80%;
+  }
+  .CardFourth {
+    position: relative;
+    top: 120px;
+    left:40px;
+    border: 1px solid;
+    border-color: #89CFF0;
+    transition: 0.3s;
+    width: 80%;
+  
+    
+  }
+  
+  .Card1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 120px;
+    
+  }
+  
+  .Card2{
+    padding-left: 115px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Card3{
+    padding-left: 125px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Card4{
+    padding-left: 110px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .today{
+    padding-left: 10px;
+  }
+  
+  .details {
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .TableTitle{
+    padding-top: 150px;
+    padding-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .TableArea{
+    display: inline;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  .Table2{
+    position: relative;
+    top: 30px;
+    }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: #B80F0A;
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  .key{
+    font-style: italic;
+    color: grey;
+    padding-left: 40px;
+    font-size: 14px;
+    
+  }
+  
+  .key1{
+  font-style: italic;
+    color: grey;
+    padding-left: 60px;
+    font-size: 14px;
+  }
+  
+  .gradient{
+   padding-left: 10px;
+    width: 100%;
+  }
+
+  
+  .ChartTitle{
+    padding-top: 30px;
+    padding-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ChartArea{
+    padding-top: 60px;
+  }
+
+  footer{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+  }
+  
+
+ }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

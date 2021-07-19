@@ -1,0 +1,385 @@
+.Card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 320px){
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .Title{
+    padding-left: 5px;
+    height: 45px;
+    width: 320px;
+    
+  }
+  .TitleDiv{
+  width: 100%;
+  background-color: #ded9d9;
+  }
+
+  .map{
+    padding-top: 30px;
+  }
+
+  .key{
+    font-style: italic;
+    color:grey;
+    padding-left: 30px;
+    font-size: 11px;
+    
+  }
+  .gradient{
+    padding-left: 18px;
+    width: 300px;
+    height: 25px;
+  }
+
+  .CardFirst {
+    position: relative;
+    top: 25px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 80%;
+    left: 32px;
+  }
+
+  .CardSecond {
+    position: relative;
+    top: 35px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 80%;
+    left: 32px;
+  }
+  .CardThird{
+    position: relative;
+    top: 45px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 80%;
+    left: 32px; 
+  }
+  .CardFourth {
+    position: relative;
+    top: 55px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 80%;
+    left: 32px;
+  }
+  .Area{
+    background-color: #FEDC56;
+    height: 40px;
+    width: 255px;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+  
+  .Area1{
+    background-color: #98FB98;
+    height: 40px;
+    width: 255px;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+  
+  .Area2{
+    background-color: #CD5C5C;
+    height: 40px;
+    width: 255px;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+  
+  .Area3{
+    background-color: #89CFF0;
+    height: 40px;
+    width: 255px;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+  }
+
+ .Card1{
+   padding-left: 83px;
+ }
+ .Card2{
+   padding-left: 75px;
+ }
+ .Card3{
+   padding-left: 90px;
+ }
+ .Card4{
+   padding-left: 70px;
+ }
+ .TableTitle{
+   padding-top: 90px;
+   padding-left: 85px;
+ }
+
+ table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  background-color: #B80F0A;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+
+.Table2{
+position: relative;
+top: 30px;
+}
+
+.ChartTitle{
+  padding-top: 60px;
+  padding-left: 89px;
+}
+
+.key1{
+    font-style: italic;
+    color: grey;
+    padding-left: 45px;
+    font-size: 11px;
+}
+
+footer{
+  padding-top: 15px;
+  
+} }
+
+
+@media (min-width: 1200px) { 
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .Card {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  
+    
+  }
+  .CardFirst {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  }
+  
+  .CardSecond {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  }
+  .CardThird{
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  }
+  .CardFourth {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    transition: 0.3s;
+    width: 20%;
+  
+    
+  }
+  .Area{
+    background-color: #FEDC56;
+    height: 40px;
+    width: 268px;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+  }
+  
+  .Area1{
+    background-color: #98FB98;
+    height: 40px;
+    width: 268px;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+  }
+  
+  .Area2{
+    background-color: #CD5C5C;
+    height: 40px;
+    width: 268px;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+  }
+  
+  .Area3{
+    background-color: #89CFF0;
+    height: 40px;
+    width: 268px;
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+  }
+  
+  .Card1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 75px;
+    
+  }
+  
+  .Card2{
+    padding-left: 70px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Card3{
+    padding-left: 80px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Card4{
+    padding-left: 70px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .today{
+    padding-left: 10px;
+  }
+  
+  .details {
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .TableTitle{
+    padding-left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .TableArea{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: #B80F0A;
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+  .Title{
+    padding-left: 150px;
+    width: 1200px;
+    height: 100px;
+  }
+  .TitleDiv{
+    background-color: #ded9d9;
+    width: 100%;
+  }
+  
+  .key{
+    font-style: italic;
+    color: grey;
+    padding-left: 500px;
+    
+  }
+  
+  .key1{
+  font-style: italic;
+    color: grey;
+    padding-left: 500px;
+  }
+  
+  .gradient{
+    padding-left: 400px;
+    width: 950px;
+  }
+  
+  .CardArea{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ChartTitle{
+    padding-left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ChartArea{
+    padding-top: 60px;
+  }
+
+ }
